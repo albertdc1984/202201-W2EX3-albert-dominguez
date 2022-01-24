@@ -1,8 +1,6 @@
-function patientObjects(array) {
-  const arrays = array;
+const patientObject = (patientsList) => {
+  const nPatients = patientsList.length;
+  return nPatients;
+};
 
-  console.log(arrays);
-  return arrays;
-}
-
-export default patientObjects;
+export default patientObject;
