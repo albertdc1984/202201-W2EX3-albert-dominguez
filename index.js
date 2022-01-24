@@ -1,3 +1,5 @@
+import patientObjects from "./modules/patientObject";
+
 const patients = [
   {
     patient: {
@@ -54,3 +56,6 @@ const patients = [
     diet: "Salt free",
   },
 ];
+patientObjects(patients);
+
+export default patients;
